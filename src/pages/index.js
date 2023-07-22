@@ -8,42 +8,39 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
+    text: "Introduction: Barbie 2023 Movie",
+    url: "https://watchfullbarbie2023movieadream.gatsbyjs.io",
     description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
+      "Barbie, the iconic doll created by Mattel, has been captivating hearts around the globe since her debut in 1959. Her everlasting popularity led to the creation of a series of enchanting animated movies that continue to mesmerize audiences of all ages. In this article, we delve into the mesmerizing world of Barbie and explore the highly anticipated movie, Barbie 2023. Unveiling Barbie's Timeless Appeal: Barbie has remained a beloved figure for generations, transcending time and cultural boundaries. With her impeccable style, charisma, and empowering persona, she has inspired countless young minds to dream big and believe in themselves. The Evolution of Barbie Movies: Over the years, Barbie movies have evolved, not just in animation quality but also in storytelling. From fairy tales to modern adventures, each movie carries a unique message while preserving the essence of Barbie's spirit. A Sneak Peek into Barbie 2023 Movie: Barbie 2023 promises to be a dreamlike adventure that takes viewers on a roller-coaster ride filled with magic, friendship, and life lessons. With stunning animation and an engaging plot, it is set to be a visual treat for Barbie fans and movie enthusiasts alike.",
   },
   {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
+    text: "Meet the Characters: Barbie 2023 Movie",
+    url: "https://watchfullbarbie2023movieadream.gatsbyjs.io",
     description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
+      "Barbie - The Enduring Icon: Barbie's character in the movie epitomizes strength, kindness, and determination. As she embarks on a fantastical quest, she shows that true beauty lies in being true to oneself and embracing uniqueness. Ken - Barbie's Loyal Companion: Ken, Barbie's ever-supportive partner, stands by her side throughout the journey, adding a touch of romance and gallantry to the narrative. Chelsea and Friends - The Adventurous Bunch: Chelsea, Barbie's younger sister, along with a group of diverse and adventurous friends, brings humor, fun, and camaraderie to the storyline. Setting the Stage for Adventure: The movie unfolds in a mystical land where imagination knows no bounds. With captivating landscapes and magical creatures, viewers are drawn into a world beyond their wildest dreams. Embarking on a Magical Journey: As the adventure begins, Barbie and her friends set out on a quest to protect a powerful artifact from falling into the wrong hands. Along the way, they encounter challenges, test their limits, and form unbreakable bonds. Confronting Challenges and Villains: No adventure is complete without obstacles, and Barbie and her friends face their fair share. From daring escapes to clever strategizing, they prove that courage and teamwork can overcome any adversity.",
   },
   {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
+    text: "Behind the Scenes: The Making of Barbie 2023",
+    url: "https://watchfullbarbie2023movieadream.gatsbyjs.io",
     description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
+      "A Glimpse into Animation Marvels: The movie's animation team showcases their brilliance, bringing the characters and their magical world to life with stunning visuals and attention to detail. Voice Artists - Giving Life to Characters: Talented voice actors breathe life into the characters, infusing emotions and depth that resonate with the audience. Crafting Mesmerizing Soundtracks: The movie's soundtrack, carefully composed to complement the narrative, evokes emotions and enhances the overall movie-watching experience. Unveiling the Director's Vision: The director's creative vision and dedication shine through every frame, making Barbie 2023 a true masterpiece. Inspiring Generations of Fans: Barbie's cultural impact goes beyond the doll itself. Her movies, merchandise, and empowering messages have left an indelible mark on generations of fans worldwide. Barbie's Influence on Fashion: Barbie's iconic fashion sense has inspired real-world designers and continues to set trends in the fashion industry. Empowering Young Minds through Storytelling: Barbie movies are not just entertainment; they carry meaningful messages that instill values like friendship, perseverance, and self-belief in young minds. The World of Barbie Merchandise: Barbie's popularity has spawned a vast array of merchandise, from dolls and clothing to accessories and home decor, making her a cherished collectible. Collecting Barbie Memorabilia: Dedicated fans have turned Barbie collecting into a passionate hobby, cherishing rare and vintage pieces from different eras.",
   },
   {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
+    text: "Conclusion: Barbie 2023 Movie",
+    url: "https://watchfullbarbie2023movieadream.gatsbyjs.io",
     description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
+      "Barbie 2023 Movie is set to enchant audiences with its magical storyline, breathtaking animation, and enduring messages of friendship and self-discovery. As we embark on this dreamlike adventure alongside Barbie and her friends, we are reminded of the power of imagination and the importance of staying true to ourselves. So, grab your popcorn and get ready to be captivated by the world of Barbie like never before!",
   },
 ]
 
 const samplePageLinks = [
   {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
+    text: "Barbie 2023",
+    url: "https://aius.site/movie/346698/barbie.html",
     description:
-      "A simple example of linking to another page within a Gatsby site",
+      "Barbie, the iconic doll created by Mattel, has been captivating hearts around the globe since her debut in 1959. Her everlasting popularity led to the creation of a series of enchanting animated movies that continue to mesmerize audiences of all ages. In this article, we delve into the mesmerizing world of Barbie and explore the highly anticipated movie, Barbie 2023. Barbie has remained a beloved figure for generations, transcending time and cultural boundaries. With her impeccable style, charisma, and empowering persona, she has inspired countless young minds to dream big and believe in themselves. Over the years, Barbie movies have evolved, not just in animation quality but also in storytelling. From fairy tales to modern adventures, each movie carries a unique message while preserving the essence of Barbie's spirit.",
   },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
+  
 ]
 
 const moreLinks = [
@@ -73,27 +70,26 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/barbie2023.jpg"
         loading="eager"
-        width={64}
+        width={720}
         quality={95}
         formats={["auto", "webp", "avif"]}
         alt=""
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Watch Full <b>{[Barbie 2023]} Movie</b> - A Dreamlike Adventure with Barbie and Her Friends
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
+        <b>Visit Link To Watch Full Movie: 👉</b> {" "}
+       {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
             {i !== samplePageLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        
       </p>
     </div>
     <ul className={styles.list}>
